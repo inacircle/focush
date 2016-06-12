@@ -1,7 +1,6 @@
 #! /usr/bin/env bash
 
 while true; do
-  echo '>'
   # check for presence of ~/.focush
   # if found, say: you should be focusing on: {read contents of file}
   if [ -e ~/.focush ]
